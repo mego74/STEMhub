@@ -1,0 +1,121 @@
+name: untitled7
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.17.4
+  flutter_pdfview: ^1.0.2+3
+  path_provider: ^1.6.10
+  http: ^0.12.1
+  youtube_player_flutter: ^6.1.0+2
+  url_launcher: ^5.2.5
+  font_awesome_flutter: ^8.8.1
+  flutter_launcher_icons: ^0.7.5
+  flutter_launcher_name: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter_launcher_name:
+  name: "STEMhub"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/images/23011.png
+    - assets/images/3869210.png
+    - assets/images/19413.png
+    - assets/images/3761159.png
+    - assets/images/about3.png
+    - assets/images/lolo.png
+    - assets/images/mego.png
+    - assets/images/5t5t.png
+    - assets/mypdf1.pdf
+    - assets/mypdf2.pdf
+    - assets/mypdf3.pdf
+    - assets/mypdf4.pdf
+    - assets/mypdf5.pdf
+    - assets/mypdf6.pdf
+    - assets/mypdf7.pdf
+    - assets/mypdf8.pdf
+    - assets/mypdf9.pdf
+    - assets/mypdf10.pdf
+    - assets/mypdf11.pdf
+    - assets/mypdf12.pdf
+    - assets/mypdf13.pdf
+    - assets/mypdf14.pdf
+    - assets/mypdf15.pdf
+    - assets/mypdf16.pdf
+    - assets/mypdf17.pdf
+    - assets/mypdf18.pdf
+    - assets/mypdf19.pdf
+    - assets/mypdf20.pdf
+    - assets/images/ecology11.png
+    - assets/images/ecology22.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
